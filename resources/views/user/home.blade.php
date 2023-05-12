@@ -65,7 +65,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupport">
+            <div class="collapse navbar-collapse" id="navbarSupport" style="visibility: visible !important;">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="index.html">Home</a>
@@ -86,7 +86,7 @@
                     @if(Route::has('login'))
                     @auth
                         <x-app-layout>
-                            <h1>test</h1>
+{{--                            <h1>test</h1>--}}
                         </x-app-layout>
                     @else
 
