@@ -87,6 +87,10 @@
 
                     @if(Route::has('login'))
                         @auth
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{url('myappointment')}}">My Appointments</a>
+                            </li>
+
                             <x-app-layout>
                                 {{--                            <h1>test</h1>--}}
                             </x-app-layout>
