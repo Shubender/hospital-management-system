@@ -40,6 +40,9 @@
                     <td>
                         <a class="btn btn-danger" href="{{url('canceled', $appoint->id)}}">Cancel</a>
                     </td>
+                    <td>
+                        <a class="btn btn-primary" href="{{url('emailview', $appoint->id)}}">Send Meil</a>
+                    </td>
                 </tr>
                 @endforeach
             </table>

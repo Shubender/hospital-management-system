@@ -37,12 +37,16 @@ Route::get('/deletedoctor/{id}', [AdminController::class, 'deletedoctor']);
 
 Route::get('/updatedoctor/{id}', [AdminController::class, 'updatedoctor']);
 
+Route::get('/emailview/{id}', [AdminController::class, 'emailview']);
+
 
 Route::post('/upload_doctor', [AdminController::class, 'upload']);
 
 Route::post('/appointment', [HomeController::class, 'appointment']);
 
 Route::post('/editdoctor/{id}', [AdminController::class, 'editdoctor']);
+
+Route::post('/sendemail/{id}', [AdminController::class, 'sendemail']);
 
 
 Route::middleware([
