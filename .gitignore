@@ -3,6 +3,11 @@
 /public/build
 /public/hot
 /public/storage
+/public/admin/assets
+/public/admin/pages
+/public/admin/partials
+/public/admin/gulp-tasks
+/public/doctorimage
 /storage/*.key
 /vendor
 .env
