@@ -80,7 +80,6 @@ class AdminController extends Controller
     public function editdoctor(Request $request, $id)
     {
         $doctor = doctor::find($id);
-        info($id);
 
         $doctor->name = $request->name;
         $doctor->phone = $request->phone;
