@@ -35,7 +35,7 @@
                             <a class="btn btn-danger" onclick="return confirm('Are you sure?')" href="{{url('deletedoctor', $doctor->id)}}">Delete</a>
                         </td>
                         <td>
-                            <a class="btn btn-primary" href="{{url('update', $doctor->id)}}">Update</a>
+                            <a class="btn btn-primary" href="{{url('updatedoctor', $doctor->id)}}">Update</a>
                         </td>
                     </tr>
                 @endforeach
